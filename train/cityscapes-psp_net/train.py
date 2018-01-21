@@ -15,6 +15,7 @@ from datasets import cityscapes
 from models import *
 from utils import check_mkdir, evaluate, AverageMeter, CrossEntropyLoss2d
 
+
 ckpt_path = '../../ckpt'
 exp_name = 'cityscapes (fine)-psp_net'
 writer = SummaryWriter(os.path.join(ckpt_path, 'exp', exp_name))
